@@ -1,0 +1,57 @@
+#img-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+}
+
+body{
+    background-color: #a00000;
+}
+
+.titulos{
+    color: #ef3945;
+    background-color: #005677;
+    -webkit-text-stroke: 0.18px white;
+}
+
+#contenedor{
+    margin: 6rem;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#footer{
+    background-color: #005677;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #ef3945;
+    -webkit-text-stroke: 0.18px white;
+}
+
+#margen-footer{
+    margin-left:2em;
+    margin-top: 0.35em;
+}
+
+h4#margen-footer{
+    margin-top: 0.5rem;
+}
+
+#logo-spiderman{
+    height: 10px;
+}
+
+header {
+    background-image: url(/img/banner.png);
+    background-size: cover;
+    background-size: 40em;
+}
+
+#contacto-footer{
+    width: 3em;
+}
