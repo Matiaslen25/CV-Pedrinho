@@ -6,13 +6,25 @@
 }
 
 body{
-    background-color: #a00000;
+    /*background-color: #a00000;*/
+    background-image: url(/img/pattern.png);
+    background-size: 5em;
+    font-family: spiderman;
+    word-spacing: 10px;
+    font-size: 18px;
 }
 
 .titulos{
-    color: #ef3945;
+    color: white;
     background-color: #005677;
-    -webkit-text-stroke: 0.18px white;
+    -webkit-text-stroke: 0.18px #ef3945;
+    word-spacing: 30px;
+}
+
+li{
+    color: white;
+    background-color: #005677;
+    -webkit-text-stroke: 0.5px #ef3945;
 }
 
 #contenedor{
@@ -54,4 +66,24 @@ header {
 
 #contacto-footer{
     width: 3em;
+}
+
+@font-face {
+    font-family: spiderman;
+    /*src: url(/styles/Mightyspidey-pmaa.ttf);*/
+    src: url(/styles/spiderfont.ttf);
+}
+
+h1{
+    text-align: center;
+    color: #ef3945;
+    background-color: #005677;
+    -webkit-text-stroke: 1px white;
+    word-spacing: 30px;
+}
+.parrafos{
+    color: white;
+    background-color: #005677;
+    -webkit-text-stroke: 0.4px #ef3945;
+    word-spacing: 30px;
 }
