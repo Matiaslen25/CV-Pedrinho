@@ -3,6 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     height: 10rem;
+    border-radius: 2.5rem;
+    background-color: #005677;
 }
 
 body{
